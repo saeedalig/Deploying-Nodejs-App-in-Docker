@@ -28,7 +28,7 @@ touch Dockerfile
 ```
 
 Write the set of instructions to the Dockerfile
-```dockerfile
+```Dockerfile
 # Base Image.
 FROM node:latest
 
@@ -49,7 +49,7 @@ EXPOSE 3000
 
 # Runtime command to be executed when the container is launched
 CMD ["node", "app.js"]
-```
+
 
 
 
