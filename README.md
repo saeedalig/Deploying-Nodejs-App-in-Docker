@@ -50,7 +50,7 @@ EXPOSE 3000
 
 # Runtime command to be executed when the container is launched
 CMD ["node", "app.js"]
-
+```
 
 Since you have created the Dockerfile, its time to build the Docker image from the Dockerfile you created in order to create a Docker container that will allow you to deploy your application.
 
