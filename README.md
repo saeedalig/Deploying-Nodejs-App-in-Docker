@@ -57,6 +57,8 @@ Since you have created the Dockerfile, its time to build the Docker image from t
 Build the Docker image
 ```bash
 docker build -t nodejs-app-img .
+
+The -t flag is used to tag the image with the name "my-node-app". The dot (.) at the end indicates the current directory as the build context.
 ```
 
 
