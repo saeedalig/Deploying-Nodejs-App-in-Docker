@@ -9,7 +9,6 @@ Create a Project Directory and Navigate
 mkdir docker-project
 cd docker-project
 ```
-![Alt text](<Screenshot (57).png>)
 
 
 
