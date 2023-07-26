@@ -68,7 +68,7 @@ docker images
 ![Alt text](<Screenshot (60).png>)
 
 
-Rub the Docker image
+Run the Docker container
 ```bash
 docker run -d -p 3000:3000 --name nodejs-app-app nodejs-app-image
 
@@ -87,6 +87,5 @@ docker ps
 
 
 
-Thats all you need to do, to run this basic example.
 
 
