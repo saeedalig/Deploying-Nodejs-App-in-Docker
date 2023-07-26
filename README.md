@@ -52,6 +52,13 @@ EXPOSE 3000
 CMD ["node", "app.js"]
 
 
+Since you have created the Dockerfile, it's time to build the Docker image from the Dockerfile you created in order to create a Docker container that will allow you to deploy your application.
+
+Build the Docker image
+```bash
+docker build -t nodejs-app-img .
+```
+
 
 
 
