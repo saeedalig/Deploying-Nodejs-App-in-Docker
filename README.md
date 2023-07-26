@@ -10,6 +10,48 @@ mkdir docker-project
 cd docker-project
 ```
 
+Clone to repo
+'''bash
+git clone https://github.com/saeedalig/Deploying-Nodejs-App-in-Docker.git
+```
+
+Navigate to the Repo you cloned
+'''bash
+cd Deploying-Nodejs-App-in-Docker
+```
+
+Once you have accessed the concerned repository, you have to create a Dockerfile in order to build  a Docker image.
+
+Create a Dockerfile (vscode)
+'''bash
+touch Dockerfile
+```
+
+Write the set of instructions to the Dockerfile
+```bash
+# Base Image.
+FROM node:latest
+
+#  app directory, where your it will live .
+WORKDIR /app
+
+# A wildcard is used to ensure both package.json AND package-lock.json are copied
+COPY package*.json ./
+
+# Installing the packages while the image is building
+RUN npm install
+
+# Copy rest of the files 
+COPY . .
+
+# The app binds to port 3000, so exposing port 3000 to be used by the docker network
+EXPOSE 3000
+
+# Runtime command to be executed when the container is launched
+CMD ["node", "app.js"]
+```
+
+
 
 
 
@@ -53,7 +95,7 @@ CMD ["node", "app.js"]
 
 ### Running the demo nodejs app on your machine
 
-Step 1: Clone to repo
+Step 1: 
 
 ```
 git clone https://github.com/trulymittal/nodejs_dockerfile.git
