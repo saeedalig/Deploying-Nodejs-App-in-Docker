@@ -11,23 +11,24 @@ cd docker-project
 ```
 
 Clone to repo
-'''bash
+```bash
 git clone https://github.com/saeedalig/Deploying-Nodejs-App-in-Docker.git
 ```
 
 Navigate to the Repo you cloned
-'''bash
+```bash
 cd Deploying-Nodejs-App-in-Docker
 ```
 
 Once you have accessed the concerned repository, you have to create a Dockerfile in order to build  a Docker image.
 
 Create a Dockerfile (vscode)
-'''dockerfile
+```bash
 touch Dockerfile
 ```
 
 Write the set of instructions to the Dockerfile
+
 ```Dockerfile
 # Base Image.
 FROM node:latest
