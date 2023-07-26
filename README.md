@@ -85,6 +85,16 @@ docker ps
 ![Alt text](<Screenshot (61).png>)
 
 
+Access the Node.js App. Open your web browser and visit the url 
+```bash
+ http://localhost:3000
+```
+
+![Alt text](<Screenshot (56).png>)
+
+
+### Congratulations! You have now created a Docker project wherein you deployed a Node.js app using Docker.
+
 
 
 
