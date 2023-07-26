@@ -80,10 +80,4 @@ docker run -d -p 3000:3000 IMAGE_NAME
 
 Thats all you need to do, to run this basic example.
 
-## Authors
 
-- [**Truly Mittal**](https://trulymittal.com)
-
-## License
-
-This project is licensed under the MIT License.
